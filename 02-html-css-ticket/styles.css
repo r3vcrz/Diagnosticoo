@@ -36,9 +36,9 @@ body{
 }
 #ticket{
   padding: 2rem 1.5rem 2rem 1.5rem;
-  border-radius: 1.25rem 2rem 0 0;
+  border-radius: 1.25rem ;
   background: linear-gradient(135deg, #2440c9, #8a2be2);
-
+  width: 30rem;
 
 }
 
@@ -46,8 +46,7 @@ body{
   background-color: var(--heel-bg-color);
     border-radius: 1.25rem;
     text-align: center;
-    width: 14rem;
-
+    width: auto;
      position: relative;
   padding: 2rem 1.5rem;
   display: flex;
@@ -56,7 +55,6 @@ body{
   justify-content: center;
   gap: 0.75rem;
   border-left: 2px dashed var(--main-bg-color);
-
 }
 
 #Heel::before,
@@ -81,7 +79,7 @@ body{
 .title{
 margin-top: 0.5rem;
 font-size: 3rem;
-font-weight: 700;
+font-weight: bold;
 line-height: 1;
 
 
@@ -142,10 +140,10 @@ hr{
    width: rem;
 }
 
-@media (max-width: 23rem) {
+@media (max-width: 40rem) {
   .wrapper {
     grid-template-columns: 1fr;
-    width: 100%;
+    width: 23rem;
   }
 
   #ticket {
